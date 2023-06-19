@@ -250,6 +250,7 @@ pgram = Client(
     api_hash=API_HASH,
     bot_token=TOKEN,
 )
+pbot = Client("SenseiPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 
 # Credits Logger
 print(
